@@ -1,0 +1,113 @@
+*,
+* ::before,
+* ::after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image:  url("https://alistapart.com/d/responsive-web-design/ex/site/rag.png"), url("https://alistapart.com/d/responsive-web-design/ex/site/bg.png");
+  background-repeat: repeat-x, repeat;
+}
+
+#wrap {
+  width: 100%;
+  margin: auto;
+  padding: 1em;
+}
+
+
+#navigation {
+  margin: auto;
+  width: 100%;
+  padding: 2em 0em;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#navigation ul {
+  border-top: 1px solid black;
+  margin: auto;
+  -webkit-padding-start: 0px;
+  display: block;
+  /*width: 100%;*/
+
+}
+
+#navigation li {
+  list-style: none;
+  padding: 1em 0em;
+  margin: 0em 0em;
+  display: block;
+  border-bottom: 1px solid black;
+  text-align: center;
+  font-size: 10px;
+  /*display: inline-block;*/
+  width: 32%;
+  float: left;
+}
+
+#navigation li.first, #navigation li.middle {
+  margin-right: 2%;
+}
+
+/*
+#navigation ul::before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background: #404040;
+}
+
+#navigation li::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background: #404040;
+}*/
+
+
+
+/*#navigation li#middle, #navigation li#first  {
+  margin-right: 1.5em;
+  margin-left: 1.5em;
+  float: left;
+}*/
+
+/*#navigation li#last {
+  float: right;
+}*/
+/*.red {
+
+}
+
+.bold {
+
+}
+
+#logo {
+
+}
+
+.content {
+
+}
+
+.photoContainer {
+
+}
+
+.photoContainer img {
+
+}
+
+.caption {
+
+}
+
+.footer {
+
+}*/
