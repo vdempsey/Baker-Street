@@ -9,12 +9,13 @@
 body {
   background-image:  url("https://alistapart.com/d/responsive-web-design/ex/site/rag.png"), url("https://alistapart.com/d/responsive-web-design/ex/site/bg.png");
   background-repeat: repeat-x, repeat;
+  font: normal 100% Cambria, Georgia, serif;
 }
 
 #wrap {
   width: 100%;
   margin: auto;
-  padding: 1em;
+  padding: .8em;
 }
 
 
@@ -52,36 +53,9 @@ body {
   margin-right: 2%;
 }
 
-/*
-#navigation ul::before {
-  content: "";
-  display: block;
-  height: 1px;
-  width: 100%;
-  background: #404040;
-}
 
-#navigation li::after {
-  content: "";
-  display: block;
-  height: 1px;
-  width: 100%;
-  background: #404040;
-}*/
-
-
-
-/*#navigation li#middle, #navigation li#first  {
-  margin-right: 1.5em;
-  margin-left: 1.5em;
-  float: left;
-}*/
-
-/*#navigation li#last {
-  float: right;
-}*/
-/*.red {
-
+.red {
+  color: #87040A;
 }
 
 .bold {
@@ -89,25 +63,82 @@ body {
 }
 
 #logo {
-
+ width: 100%;
 }
 
-.content {
-
+#logo img {
+  display: block;
+  margin: auto;
+  margin-top: 45px;
 }
+
+h1 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 22px;
+  font-family: "Hoefler Text", "Baskerville old face", Garamond, "Times New Roman", serif;
+}
+
+h2 {
+  font-family: georgia;
+}
+
+h1+p {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 1em;
+  line-height: 1.35em;
+}
+
 
 .photoContainer {
+  float: left;
+  width: 48.5%;
+}
 
+div.photoContainer:nth-of-type(odd) {
+ margin-right: 3%;
 }
 
 .photoContainer img {
-
+  width: 100%;
 }
+
 
 .caption {
+  text-align: center;
+}
+
+
+.footer {
+  background-image: url("https://alistapart.com/d/responsive-web-design/ex/site/ornament.png");
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 12px;
+  clear: both;
+  padding-top: 30px;
+}
+
+.content h2 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 22px;
+  background-image: url("https://alistapart.com/d/responsive-web-design/ex/site/bg.png"), url("https://alistapart.com/d/responsive-web-design/ex/site/ornament.png");
+  background-position: 50% 50%, 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 220px, auto;
+
 
 }
 
-.footer {
+.amp {
+  font-family: Baskerville, Garamond, Palatino, "Palatino Linotype", "Hoefler Text", "Times New Roman", serif;
+  font-style: italic;
+  font-weight: normal;
+}
 
+/*.footer div::after {
+  content: "";
+background-image: url("https://alistapart.com/d/responsive-web-design/ex/site/ornament.png");
+background-repeat: no-repeat;
 }*/
